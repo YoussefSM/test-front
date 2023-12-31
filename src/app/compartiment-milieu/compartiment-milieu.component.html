@@ -1,0 +1,6 @@
+<p>Lorem ipsum</p>
+<div class="white-box" (mouseover)="hoverCercleItems(true)" (mouseout)="hoverCercleItems(false)">
+    <div class="container">
+        <app-cercle-item *ngFor="let item of numberOfCircleArray" [isHovered]="isHovered"></app-cercle-item>
+    </div>
+</div>
